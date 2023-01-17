@@ -1,5 +1,5 @@
 # LinkShortener
-A link shortener 
+A link shortener
 
 ## Overview
 A link shortning web page that interacts with a database of links along with other information.
