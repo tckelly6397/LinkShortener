@@ -1,6 +1,6 @@
 {
   "name": "linkshortener",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -11,6 +11,22 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
-  }
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
+  },
+  "description": "A link shortener",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tckelly6397/LinkShortener.git"
+  },
+  "keywords": [
+    "link"
+  ],
+  "author": "tckelly6397",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tckelly6397/LinkShortener/issues"
+  },
+  "homepage": "https://github.com/tckelly6397/LinkShortener#readme"
 }
