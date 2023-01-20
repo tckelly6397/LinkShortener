@@ -1,8 +1,111 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #454545;
+
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+nav {
+  width: 100%;
+}
+
+#nav-content {
+  background-color: #00B7FF;
+  padding: 5px 15px 30px 15px;
+  font-size: 88px;
+  text-align: center;
+}
+
+#profile-section {
+  align-items: center;
+  font-size: 33px;
+  justify-content: center;
+
+  margin-left: auto;
+}
+
+#profile-section div {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+
+  background-color: #f0f0f0;
+}
+
+#profile-section div a {
+  padding: 5px;
+}
+
+#profile-section div:hover {
+  cursor: pointer;
+
+  filter: brightness(85%);
+}
+
+#login {
+  border-radius: 10px 0 0 10px;
+}
+
+#signup {
+  border-radius: 0 10px 10px 0;
+}
+
+#main-container {
+  padding: 120px 0 200px 0;
+  text-align: center;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+}
+
+#main-input {
+  width: 500px;
+  height: 48px;
+  font-size: 20px;
+
+  background-image: url("/images/search.png");
+  background-repeat: no-repeat;
+
+  border-color: #f0f0f0;
+  color: #454545;
+
+  padding-left: 55px;
+}
+
+#submit-btn {
+  font-size: 33px;
+  font-weight: bold;
+  border-radius: 0 10px 10px 0;
+
+  background-color: #00B7FF;
+  color: #454545;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+}
+
+#footer-content {
+  height: 200px;
+
+  background-color: #454545;
+  color: white;
+
+  font-size: 30px;
+
+  padding: 15px;
+}
+
+#input-top-text {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
 }
