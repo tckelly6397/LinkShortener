@@ -71,7 +71,9 @@ nav {
   background-image: url("/images/search.png");
   background-repeat: no-repeat;
 
-  border-color: #f0f0f0;
+  border: solid black;
+  border-right: 0;
+  border-radius: 10px 0 0 10px;
   color: #454545;
 
   padding-left: 55px;
@@ -106,6 +108,48 @@ nav {
   margin-bottom: 10px;
 }
 
+#footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
 .flex {
   display: flex;
+}
+
+.footer-column {
+  list-style: none;
+}
+
+.footer-column li {
+  font-size: 24px;
+}
+
+.footer-column-header {
+  font-size: 30px;
+
+  margin-bottom: 35px;
+}
+
+.footer-column-header::before{
+  content: '';
+  position: absolute;
+  transform: translateY(40px);
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.github-social img {
+  background-color: #3a3a3a;
+  border: solid #2a2a2a;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.github-social img:hover {
+  filter: brightness(90%);
+
+  cursor: pointer;
 }
