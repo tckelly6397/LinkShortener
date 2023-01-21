@@ -4,5 +4,6 @@ block content
   div(id="main-container")
     div(id="input-top-text") Input a url to shorten it
     div(id="input-container")
-      input(id="main-input" type="url" placeholder="url")
-      button(id="submit-btn" type="submit") shorten
+      div(id="main-form") 
+        input(id="main-input" type="url" placeholder="url" name="link")
+        button(id="submit-btn" type="submit" onclick="postLink();") shorten

@@ -8,6 +8,6 @@ router.get('/home', function(req, res, next) {
 
 router.get('/',(req, res, next)=>{
   res.redirect('/home');
-})
+});
 
 module.exports = router;
