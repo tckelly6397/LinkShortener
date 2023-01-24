@@ -4,6 +4,15 @@ var router = express.Router();
 
 var linksLocation = "./resources/links.json";
 
+function checkUrl(url) {
+    //http:// https://
+    if(url.substring(0, 7) != 'http://' && url.substring(0, 8) != 'https://') {
+        url = "http://" + url;
+    }
+
+    return url;
+}
+
 function getKey(length) {
     var id = '';
     var values = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -29,7 +38,7 @@ function createKey(list) {
 }
 
 router.post('/newLink', function(req, res, next) {  
-    let link = req.body.link;
+    let link = checkUrl(req.body.link);
     
     //Handle adding the link to the json file
     //Get the link list

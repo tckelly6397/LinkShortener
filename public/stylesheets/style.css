@@ -128,6 +128,36 @@ nav {
   display: contents;
 }
 
+#main-view-url {
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#key-text {
+  min-width: 400px;
+}
+
+.detailed-big-text {
+  font-size: 25px;
+  background-color: #dfdfdf;
+  border-radius: 15px;
+
+  padding: 10px;
+}
+
+.detailed-big-text:hover {
+  filter: brightness(85%);
+
+  cursor: pointer;
+}
+
+.detailed-big-text:active {
+  filter: brightness(70%);
+}
+
 .flex {
   display: flex;
 }
