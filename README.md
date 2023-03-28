@@ -9,12 +9,12 @@ A link shortning web page that interacts with a database of links along with oth
 express
 
 ## Features
+Redirecting links
 
 ## To Do
 ### Basics
-Redirect links\
 Analytics\
-Web page
+Profile page
 
 ### Advanced
 Account system\

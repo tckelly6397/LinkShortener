@@ -15,8 +15,6 @@ nav {
   padding: 5px 15px 30px 15px;
   font-size: 88px;
   text-align: center;
-
-  width: 100%;
 }
 
 #profile-section {
@@ -120,8 +118,6 @@ nav {
 #footer-content {
   display: flex;
   justify-content: space-around;
-
-  width: 100%;
 }
 
 #main-form {
@@ -187,14 +183,14 @@ nav {
 }
 
 .github-social img {
-  background-color: #3a3a3a;
+  filter: invert(1);
   border: solid #2a2a2a;
   border-radius: 5px;
   width: 50px;
 }
 
 .github-social img:hover {
-  filter: brightness(90%);
+  filter: invert(1) brightness(90%);
 
   cursor: pointer;
 }
